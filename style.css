@@ -229,3 +229,25 @@ footer p {
 #contact form button:hover {
     background-color: #C0A9FF; /* Light Purple */
 }
+.carousel-button {
+    background-color: #5B3A8E; /* Dark Purple */
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.carousel-button:hover {
+    background-color: #C0A9FF; /* Light Purple */
+}
+
+.project-item {
+    display: none;
+}
+
+.project-item:first-child {
+    display: block;
+}
+    
