@@ -141,3 +141,91 @@ footer {
     background-color: #333;
     color: #fff;
     text-align: center;
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+footer p {
+    margin: 0.5rem 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul li {
+        margin-bottom: 1rem;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .services-grid, .team-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service, .team-member {
+        max-width: 90%;
+        margin: 1rem 0;
+    }
+
+    .project-carousel {
+        flex-direction: column;
+    }
+
+    .project-item {
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 1.5rem;
+    }
+
+    .cta-button {
+        padding: 0.5rem;
+    }
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact form label {
+    margin-bottom: 0.5rem;
+}
+
+#contact form input, #contact form textarea {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#contact form button {
+    padding: 0.75rem;
+    border: none;
+    background-color: #5B3A8E; /* Dark Purple */
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#contact form button:hover {
+    background-color: #C0A9FF; /* Light Purple */
+}
